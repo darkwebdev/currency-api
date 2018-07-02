@@ -1,0 +1,14 @@
+{
+  "port": 8080,
+  "db": {
+    "url": "mongodb://localhost:27017",
+    "dbName": "currency"
+  },
+  "service": {
+    "endpoint": "https://www.ecb.europa.eu",
+    "urls": {
+      "EUR": "/stats/eurofxref/eurofxref-daily.xml"
+    },
+    "precision": 4
+  }
+}
